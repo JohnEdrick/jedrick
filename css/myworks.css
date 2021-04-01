@@ -57,7 +57,7 @@
     -webkit-text-fill-color: transparent;
     font-family: 'Dela Gothic One', cursive;
 }
-@media only screen and (max-width: 1110px) {
+@media only screen and (max-width: 1246px) {
     .my-works{
         display: flex;
         flex-direction: column;

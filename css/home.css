@@ -112,6 +112,7 @@ button:focus{
         text-align: center;
         justify-content: center;
         padding: 90px;
+        height: auto;
     }
     
     .respo-web1{

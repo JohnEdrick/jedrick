@@ -110,8 +110,12 @@
 @media only screen and (max-width: 1110px) {
     .about-page p span{
         font-size: 70px;
+        
     }
     .about-page{
+        height: auto;
+    }
+    .mySkill{
         height: auto;
     }
 }
