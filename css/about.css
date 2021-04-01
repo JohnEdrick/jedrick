@@ -111,4 +111,7 @@
     .about-page p span{
         font-size: 70px;
     }
+    .about-page{
+        height: auto;
+    }
 }
