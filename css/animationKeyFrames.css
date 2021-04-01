@@ -1,0 +1,100 @@
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromLeft2 {
+    0% {
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromRight2 {
+    0% {
+      transform: translateX(10%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes leaves {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+@keyframes topToBottom {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+@keyframes bottomToTop {
+    0% {
+      transform: translateY(+50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes textChange{
+    0%{
+        content: 'Programmer'
+    }
+    20%{
+        content: 'Programmer'
+    }
+    40%{
+        content: 'Gamer'
+    }
+    60%{
+        content: 'Videographer'
+    }
+    80%{
+        content: 'YouTuber'
+    }
+    100%{
+        content: 'Freelancer'
+    }
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

@@ -1,0 +1,114 @@
+.about-page{
+    height: 100vh;
+    min-height: 500px;   
+    background: linear-gradient(-45deg, #111111, #2d2e2e ,#111111,#111111, #2d2e2e ,#111111);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+   
+}
+.about-page h1{
+    color: rgb(192, 182, 182);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;    
+    
+}
+.playAnimation .about-me{
+    animation: 1.8s ease-out 0s 1 topToBottom,fadein 3s;
+}
+.playAnimation p{
+    animation: 1.8s ease-out 0s 1 bottomToTop,fadein 3s;
+}
+.playAnimation div i{
+    animation: fadein 3s;
+}
+.playAnimation h1{
+    animation: 1.8s ease-out 0s 1 topToBottom,fadein 3s;
+}
+
+
+.about-page p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.self-intro{
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+.about-page p span{
+    background: linear-gradient(90deg, #fa0000, #fd0021, #fd0036, #f90049, #f3005c, #e9006f, #da0082, #c80095, #b000a7, #9200b7, #6a00c5, #171ad1);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 110px;
+    padding-top: 55px;
+}
+.about-page p span:before{
+    content: '';
+    animation: textChange infinite 5s;
+    
+}
+
+
+.mySkill{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    height: 100vh;
+}
+.skillBox img{
+    height: 50px;
+    width: auto;
+    
+}
+.skillBox{
+    border-radius: 5px;
+    width: 140px;
+    height: auto;
+    text-align: center;
+    background: linear-gradient(to bottom left, #fa0000, #fd0021, #fd0036, #f90049, #f3005c, #e9006f, #da0082, #c80095, #b000a7, #9200b7, #6a00c5, #171ad1);
+    margin: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    transition: .5s;
+}
+.skillBox h3{
+    padding-top: 15px;
+}
+.skillBox:hover{
+    transform: scale(1.2);
+}
+.skillTitle{
+    text-align: center;
+}
+.skillTitle h1{
+    color: rgb(241, 235, 235);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.playAnimation .skillBox{
+    animation: 2s ease-out 0s 1 leaves,fadein 5s;
+}
+
+.tech-skills, .other-skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1110px) {
+    .about-page p span{
+        font-size: 70px;
+    }
+}

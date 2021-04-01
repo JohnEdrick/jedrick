@@ -1,0 +1,79 @@
+.contact{
+    background: linear-gradient(-45deg, #fa0000, #fd0021, #fd0036, #f90049, #f3005c, #e9006f, #da0082, #c80095, #b000a7, #9200b7, #6a00c5, #171ad1);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  ;
+}
+#contact-title{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.field input{
+    margin: 15px;
+    background: none;
+    text-align: center;
+    border-radius: 52px;
+    border: 3px solid white;
+    font-size: 25px;
+    padding: 10px;
+    width: 550px;
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    text-align: center;
+}
+textarea{
+    background: none;
+    border: 3px solid white;
+    resize: none;
+    font-size: 20px;
+    color: rgb(250, 241, 241);
+    border-radius: 52px;
+    padding: 20px;
+    margin: 15px;
+}
+textarea:focus{
+    outline: none;
+    background: rgba(245, 245, 242, 0.3)
+}
+textarea::placeholder{
+    font-size: 25px;
+}
+input:hover[type="submit"],input:focus[type="text"],input:focus[type="email"]
+{
+	background: rgba(245, 245, 242, 0.3)
+}
+.contact h3{
+    padding-top: 20px;
+}
+.contact p{
+    font-size: 15px;
+}
+@media only screen and (max-width: 1110px) {
+    .field input{
+        width: 90%;
+        
+        margin: 5px;
+    }
+    textarea{
+       width: 90%;
+       margin: 5px;
+    }
+}
