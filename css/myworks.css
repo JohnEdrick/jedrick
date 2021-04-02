@@ -65,12 +65,12 @@
         
     }
     .my-works img{
-        width: 420px;
+        width: 750px;
     }
     .work-box{
         display: flex;
         flex-direction: column;
-        width: 420px;
+        width: 750px;
     }
     .work2{
         flex-direction: column-reverse;

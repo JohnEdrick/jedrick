@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 130px;
     height: 100vh; 
+    padding: 70px;
 }
 .description h3{
     font-size: 30px;
@@ -108,53 +108,45 @@ button:focus{
 @media only screen and (max-width: 1110px) {
     .home-page{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         justify-content: center;
         padding: 90px;
         height: auto;
     }
-    
-    .respo-web1{
-        display: none;
-    }
-    .respo-web2{
-        display: flex;
+    .socials{
+        padding-top: 120px;
+        padding-bottom: 20px;
     }
     .description h1{
-    font-size: 50px;
-    padding-top: 40px;
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    .description h3{
+        padding-bottom: 20px;
+        font-size: 35px;
+        animation: 1.8s ease-out 0s 1 slideInFromRight;
     }
     .cover-photo img{
-        width: 450px;
-        margin:0px;
-        padding: 110px 0px 10px 0px;
+        width: 550px;
+        
+        padding-bottom: 90px;
+        padding-top: 10px;
     }
     .socials a img{       
         width: 60px;
         height: auto;
+        animation: 1s ease-out 0s 1 slideInFromTop,fadein 5s; 
     }
     .button1{
         font-size: 27px;
         width: 250px;
         height: auto;
-        margin: 1px;
-    }
-    .description h3{
-        padding-left: 0px;
-        padding-bottom: 20px;
-        font-size: 40px;
-    }
-    .description{
-        line-height: 13px;
-    }
-    .respo-web2{
-        padding: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         margin: 0px;
-        text-align: center;
+        animation: 1s ease-out 0s 1 bottomToTop,fadein 5s; 
+    }
+    
+    .description{
+        line-height: 3px;
     }
 }

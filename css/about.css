@@ -65,7 +65,9 @@
 .skillBox img{
     height: 50px;
     width: auto;
-    
+}
+.boxes{
+    padding: 20px;
 }
 .skillBox{
     border-radius: 5px;
@@ -73,10 +75,8 @@
     height: auto;
     text-align: center;
     background: linear-gradient(to bottom left, #fa0000, #fd0021, #fd0036, #f90049, #f3005c, #e9006f, #da0082, #c80095, #b000a7, #9200b7, #6a00c5, #171ad1);
-    margin: 20px;
     padding: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 15px;
     color: white;
     transition: .5s;
 }
@@ -117,5 +117,11 @@
     }
     .mySkill{
         height: auto;
+    }
+    .boxes{
+        padding-bottom: 60px;
+    }
+    .work-box{
+        padding-bottom: 20px;
     }
 }

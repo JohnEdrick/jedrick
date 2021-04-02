@@ -21,7 +21,7 @@
     color: #fff;
     padding: 5px 10px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     cursor: pointer;
     display: none;
     transition: 5s;
@@ -59,7 +59,7 @@ li{
     padding-right: 75px;
 }
 .logo h4{
-    padding-left: 20px;
+    padding-left: 25px;
     font-size: 50px;
     font-family: 'IBM Plex Sans', sans-serif;
     background: linear-gradient(90deg, #fa0000, #fd0021, #fd0036, #f90049, #f3005c, #e9006f, #da0082, #c80095, #b000a7, #9200b7, #6a00c5, #171ad1);
@@ -84,6 +84,9 @@ li{
     li{ 
         padding-right: 0px;
         padding-top: 10px;
+    }
+    .nav-links li a{
+        font-size: 32px;
     }
   }
 

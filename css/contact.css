@@ -68,12 +68,12 @@ input:hover[type="submit"],input:focus[type="text"],input:focus[type="email"]
 }
 @media only screen and (max-width: 1110px) {
     .field input{
-        width: 90%;
+        width: 100%;
         
-        margin: 5px;
+        margin: 12px;
     }
     textarea{
-       width: 90%;
-       margin: 5px;
+       width: 100%;
+       margin: 12px;
     }
 }
