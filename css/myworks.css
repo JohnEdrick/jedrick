@@ -1,78 +1,97 @@
-.my-works{
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(45deg, #0a0a0a, #272727,#0a0a0a, #272727,#0a0a0a, #272727);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+.my-works {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(
+    45deg,
+    #0a0a0a,
+    #272727,
+    #0a0a0a,
+    #272727,
+    #0a0a0a,
+    #272727
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
-.my-works img{
-    width: 600px;
-    padding: 5px;
+.my-works img {
+  width: 600px;
+  padding: 5px;
 }
-.work-box{
-    display: flex;
-    width: 1200px;
-    height: auto;
+.work-box {
+  display: flex;
+  width: 1200px;
+  height: auto;
 }
-.playAnimation .work1{
-    animation: 1.8s ease-out 0s 1 slideInFromLeft2,fadein 5s;
+.playAnimation .work1 {
+  animation: 1.8s ease-out 0s 1 slideInFromLeft2, fadein 5s;
 }
-.playAnimation .work2{
-    animation: 1.8s ease-out 0s 1 slideInFromRight2,fadein 5s;
+.playAnimation .work2 {
+  animation: 1.8s ease-out 0s 1 slideInFromRight2, fadein 5s;
 }
-.playAnimation #my-works-title{
-    animation: 1s ease-out 0s 1 slideInFromTop,fadein 5s;
-
+.playAnimation #my-works-title {
+  animation: 1s ease-out 0s 1 slideInFromTop, fadein 5s;
 }
 .work-desc {
-    padding-left: 20px;
-    padding-top: 10px;
-    background-color: rgba(27, 27, 27, 0.5);
+  padding-left: 20px;
+  padding-top: 10px;
+  background-color: rgba(27, 27, 27, 0.5);
 }
-.work-desc h3{
-    padding: 40px 10px 10px 0px;
-    line-height: 50px;     
+.work-desc h3 {
+  padding: 40px 10px 10px 0px;
+  line-height: 50px;
 }
-.work-box{
-    margin: 20px;
+.work-box {
+  margin: 20px;
 }
-#my-works-title{
-    margin: 50px;
-    margin-bottom: 100px;
-    font-size: 7em;
-    text-align: center;
-    white-space: nowrap;
-    font-family: 'Yanone Kaffeesatz', sans-serif;   
+#my-works-title {
+  margin: 50px;
+  margin-bottom: 100px;
+  font-size: 7em;
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
-#proj-title p{
-    font-size: 40px;
-    background: linear-gradient(90deg, #fa0000, #fd0021, #fd0036, #f90049, #f3005c, #e9006f, #da0082, #c80095, #b000a7, #9200b7, #6a00c5, #171ad1);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Dela Gothic One', cursive;
+#proj-title p {
+  font-size: 40px;
+  background: linear-gradient(
+    90deg,
+    #fa0000,
+    #fd0021,
+    #fd0036,
+    #f90049,
+    #f3005c,
+    #e9006f,
+    #da0082,
+    #c80095,
+    #b000a7,
+    #9200b7,
+    #6a00c5,
+    #171ad1
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dela Gothic One", cursive;
 }
 @media only screen and (max-width: 1246px) {
-    .my-works{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        
-    }
-    .my-works img{
-        width: 750px;
-    }
-    .work-box{
-        display: flex;
-        flex-direction: column;
-        width: 750px;
-    }
-    .work2{
-        flex-direction: column-reverse;
-    }
+  .my-works {
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
+  .my-works img {
+    width: 750px;
+  }
+  .work-box {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+  }
+  .work2 {
+    flex-direction: column-reverse;
+  }
+}
